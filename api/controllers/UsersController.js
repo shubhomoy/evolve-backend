@@ -72,10 +72,6 @@ module.exports = {
 				});
 			}
 		});
-	},
-
-	gallery: function(req, res) {
-		res.send('gallery');
 	}
 };
 
