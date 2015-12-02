@@ -35,7 +35,8 @@ module.exports.routes = {
   'POST /api/users/login' : 'UsersController.login',
   'POST /api/users/verify' : 'UsersController.verify',
   'POST /api/upload' : 'ImagesController.upload',
-  'GET /api/fetch/all' : 'ImagesController.fetchAll'
+  'GET /api/fetch/all' : 'ImagesController.fetchAll',
+  'POST /api/delete/image' : 'ImagesController.deleteImage'
 
   /***************************************************************************
   *                                                                          *
